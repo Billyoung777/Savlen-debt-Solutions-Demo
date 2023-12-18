@@ -19,7 +19,6 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #212529;
@@ -115,7 +114,6 @@ p {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -127,7 +125,6 @@ p {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -186,11 +183,11 @@ p {
 }
 
 .bg-light {
-    background-color: #BD87CF !important;
+    background-color: #0d5f5f!important;
 }
 
 .img-shadow {
-    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1) !important;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)!important;
     border: .0625rem solid rgba(0, 0, 0, .08);
 }
 
@@ -221,7 +218,7 @@ p {
 .btn-white:active,
 .btn-white:focus,
 .btn-white:hover,
-.open>.dropdown-toggle.btn-white {
+.open > .dropdown-toggle.btn-white {
     background-color: #f3f3f3 !important;
     border: 2px solid #f3f3f3 !important;
     box-shadow: none !important;
@@ -242,7 +239,7 @@ p {
 .btn-outline-custom:active,
 .btn-outline-custom:focus,
 .btn-outline-custom:hover,
-.open>.dropdown-toggle.btn-outline-custom {
+.open > .dropdown-toggle.btn-outline-custom {
     background-color: #fff !important;
     border: 2px solid #fff !important;
     box-shadow: none !important;
@@ -366,14 +363,14 @@ p {
 }
 
 .service-box {
-    background-color: #720699;
+    background-color:#03263dfb;
     transition: transform .2s linear, box-shadow .2s linear;
-    top: 0 !important;
+    top: 0!important;
 }
 
 .service-box:hover {
-    transform: translateY(-4px) !important;
-    -webkit-transform: translateY(-4px) !important;
+    transform: translateY(-4px)!important;
+    -webkit-transform: translateY(-4px)!important;
 }
 
 .service-desc p {
@@ -456,7 +453,7 @@ label {
 .bg-footer {
     padding: 80px 0px 40px 0px;
     /*background: linear-gradient(to right, #203053, #1f2d4e);*/
-    background-color: #3B103F;
+    background-color:#547474;
 }
 
 .footer-icons li a {
@@ -488,9 +485,8 @@ label {
 .copyright {
     color: #97a0af;
 }
-
 .mb-0 {
-    color: #c3ff0f;
+    color:#c3ff0f;
 }
 
 .footer-list-menu li a {
@@ -531,7 +527,6 @@ label {
     color: #313951;
     border: 2px solid;
 }
-
 /************************************
     8. Responsive Media query
 *************************************/
@@ -540,30 +535,24 @@ label {
     .home-title {
         font-size: 28px;
     }
-
     .home-sub-title {
         font-size: 14px;
     }
-
     .home-half {
         padding-bottom: 85px;
         padding-top: 120px;
     }
-
     .home-height-half {
         height: 100vh !important;
     }
-
     .navbar-light .logo {
         line-height: 0px !important;
         padding: 0px !important;
     }
-
     .service-box .service-desc {
         width: auto;
         margin-left: 0%;
     }
-
     .service-box .service-icon {
         top: -15px;
         position: relative;
