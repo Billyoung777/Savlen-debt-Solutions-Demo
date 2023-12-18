@@ -204,7 +204,7 @@ p {
 }
 
 .btn-white {
-    background-color: #fff !important;
+    background-color: #c3ff0f !important;
     border: 2px solid #fff !important;
     transition: all 0.4s;
     color: #000 !important;
@@ -219,14 +219,14 @@ p {
 .btn-white:focus,
 .btn-white:hover,
 .open > .dropdown-toggle.btn-white {
-    background-color: #f3f3f3 !important;
+    background-color: #c3ff0f !important;
     border: 2px solid #f3f3f3 !important;
     box-shadow: none !important;
 }
 
 .btn-outline-custom {
     background-color: transparent;
-    border: 2px solid #fff !important;
+    border: 2px solid #c3ff0f !important;
     transition: all 0.4s;
     color: #fff;
 }
@@ -240,7 +240,7 @@ p {
 .btn-outline-custom:focus,
 .btn-outline-custom:hover,
 .open > .dropdown-toggle.btn-outline-custom {
-    background-color: #fff !important;
+    background-color: #c3ff0f !important;
     border: 2px solid #fff !important;
     box-shadow: none !important;
     color: #000;

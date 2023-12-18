@@ -81,7 +81,7 @@
 #topnav .navbar-toggle span {
     height: 2px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #07f4f8;
     display: block;
     margin-bottom: 5px;
     -webkit-transition: -webkit-transform .5s ease;
@@ -146,8 +146,8 @@
 }
 
 .darkheader {
-    background-color: #212529 !important;
-    -moz-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+    background-color: #072437 !important;
+    -moz-box-shadow: 0 10px 33px rgba(75, 88, 149, 0.1);
     -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1) !important;
 }
@@ -284,7 +284,7 @@
     }
     .darkheader .navigation-menu > li > a,
     .darkheader .logo {
-    color: #222527;
+    color:#072437;
 }
     #topnav .container {
         width: auto;
@@ -344,7 +344,7 @@
         color: #7a7d84;
     }
     #topnav .navbar-toggle span {
-        background-color: #fff;
+        background-color: #00b6f8;
     }
     #topnav .navbar-header {
         float: left;
@@ -396,6 +396,6 @@
 
 @media (max-width: 768px) {
     #topnav {
-        background-color: #222527 !important;
+        background-color: #072437!important;
     }
 }
